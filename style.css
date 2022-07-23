@@ -1,1 +1,80 @@
- /* Setting up css*/
+ /* This asterisks is to get rid of the the margins around the site */
+* {
+    margin: 0;
+    padding: 0;
+    border: 1px solid red;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+body {
+font-family: 'Roboto', sans-serif;
+ } 
+
+ /* HEADER */
+
+header {
+    background-color: #1f2937;
+    padding: 0px 0px;
+ } 
+.nav {
+    display: flex;
+    align-content: center;
+    justify-content: space-around;
+    align-items: center;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    font-size: 18px;
+    color: #e5e7eb;
+    gap: 18px;
+ }
+
+#logo {
+    font-size: 24px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+.nav2 {
+    display: flex;
+    color: #F9FAF8;
+}
+
+#main-text {
+    font-size: 48px;
+    font-weight: 900;
+    color: #F9FAF8;
+}
+
+#main-text2 {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+/* Main Random Information */
+
+main {
+    background-color: #f9faf8;
+ }
+
+ /* QUOTE */
+
+.quote {
+    background-color: #e5e7eb;
+ } 
+
+ /* Sign up */
+
+ .sign-up {
+    background-color: #f9faf8;
+ }
+
+ /* FOOTER */
+
+ footer {
+    background-color: #1f2937;
+    color: #FFF;
+}
