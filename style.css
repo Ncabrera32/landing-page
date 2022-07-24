@@ -17,12 +17,14 @@ font-family: 'Roboto', sans-serif;
 
 header {
     background-color: #1f2937;
-    padding: 0px 0px;
+    padding: 1em 13em;
  } 
+ /* HEADER padding gets content off side walls of site 
+ and centered took forever to figure out */
 .nav {
     display: flex;
     align-content: center;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
 }
 
@@ -40,9 +42,29 @@ ul {
     color: #F9FAF8;
 }
 .nav2 {
-    display: flex;
     color: #F9FAF8;
 }
+
+.nav2 {
+    padding: 7em 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2em;
+}
+
+.nav2 .left {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex:1;
+}
+
+.nav2 .right {
+    flex-shrink: 0;
+    width: 50%;
+}
+
 
 #main-text {
     font-size: 48px;
@@ -53,6 +75,31 @@ ul {
 #main-text2 {
     font-size: 18px;
     color: #e5e7eb;
+}
+
+#button {
+    padding: 7px 1em;
+    width: 120px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.left2 {
+    display: flex;
+    flex-wrap: wrap;
+    flex-shrink: 1;
+    width: 50%;
+
+}
+
+.image {
+    background-color: grey;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 /* Main Random Information */
 
