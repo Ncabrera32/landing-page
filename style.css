@@ -1,8 +1,7 @@
- /* This asterisks is to get rid of the the margins around the site */
+ /* This asterisks is to get rid of the the margins around the site    border: 1px solid red; */
 * {
     margin: 0;
     padding: 0;
-    border: 1px solid red;
 }
 a {
     text-decoration: none;
@@ -167,14 +166,62 @@ margin: 3em 0 6em 0;
 }
 
  /* Sign up */
+.cta {
+    background-color: #f9faf8;
+    display: flex;
+    color: #1f2937;
+    padding: 7em 13em;
+    justify-content: center;
+}
+
+#cta {
+    font-size: 24px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+#sign {
+    font-size: 18px;
+    color: #e5e7eb;
+}
 
  .sign-up {
-    background-color: #f9faf8;
- }
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
+        flex-direction: column;
+}
+
+.sign-con {
+    display: flex;
+    align-items: center;
+    background-color: #3882F6;
+    padding: 3em;
+    border-radius: 10px;
+    gap: 200px;
+}
+
+.blue {
+    display: flex;
+}
+
+#button2 {
+    padding: 7px 1em;
+    width: 120px;
+    background-color: #3882F6;
+    border-radius: 8px;
+    color: #e5e7eb;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+  border: 2px solid #e5e7eb;
+}
 
  /* FOOTER */
 
  footer {
     background-color: #1f2937;
-    color: #FFF;
+    color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    padding: 3em;
 }
